@@ -1,7 +1,41 @@
 .principal{
     display: flex;
     flex-direction: column;
-    background: rgb(29, 167, 71);
+}
+
+.header{
+    height: 15vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    background: rgb(228, 228, 228);
+}
+header img{
+    width: 200px;
+    height: 80px;
+    padding-top: 1vh;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 6vh;
+    width: 60vw;
+}
+
+.nav div{
+    margin-right: 50px;
+}
+
+.busqueda{
+    width: 25vw;
+    padding-top: 6vh;
+}
+
+section{
+    height: 50vh;
+    background: rgb(243, 243, 243);
 }
 
 footer{ 
